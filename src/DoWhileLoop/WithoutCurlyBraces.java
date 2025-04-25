@@ -9,9 +9,10 @@ public class WithoutCurlyBraces {
             System.out.println("I am do while loop");
 
 
-        // there is no curly braces and update so print one time the statement; for this condition;
-        while (i >= 4);
+        // there is no curly braces and update so print one time the statement;
+        // for this condition; while (i >= 3);/   while (i < 0);
+        while (i <= 3);
 
-        // if use while(i <= 4); the statement will print infinite;
+        // if use while(i <= 4);/while (i >= 0);  the statement will print infinite;
     }
 }
